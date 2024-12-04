@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<h1 id="title">
+
+title
+
+  </h1>
+
+  <p id="description">description</p>
+
+<form id="survey-form">
+
+  <!-- 名字输入框 -->
+
+  <label id="name-label" for="name">您的名字：</label>
+
+  <input type="text" id="name" name="name" placeholder="请输入您的名字" required>
+
+<br><br>
+
+  <!-- 邮箱输入框 -->
+
+  <label id="email-label" for="email">您的邮箱：</label>
+
+  <input type="email" id="email" name="email" placeholder="请输入有效的邮箱地址" required>
+
+<br><br>
+
+<!--placeholder 属性与占位符文本。-->
+
+  <!-- 数字输入框 -->
+
+  <label id="number-label" for="number">您的数字：</label>
+
+  <input type="number" id="number" name="number" min="1" max="100" placeholder="请输入 1 到 100 之间的数字" required>
+
+<br><br>
+
+  <!-- 下拉菜单 -->
+
+  <label for="dropdown">请选择一个选项：</label>
+
+  <select id="dropdown" name="options" required>
+
+    <option value="">--请选择--</option>
+
+    <option value="option1">选项 1</option>
+
+    <option value="option2">选项 2</option>
+
+  </select>
+
+  <!-- 单选按钮 -->
+
+  <fieldset>
+
+    <legend>请选择您的性别：</legend>
+
+    <label><input type="radio" name="gender" value="male" required> 男</label>
+
+    <label><input type="radio" name="gender" value="female"> 女</label>
+
+    <label><input type="radio" name="gender" value="other"> 其他</label>
+
+  </fieldset>
+
+  <!-- 复选框 -->
+
+  <fieldset>
+
+    <legend>选择您的兴趣爱好：</legend>
+
+    <label><input type="checkbox" name="hobbies" value="reading"> 阅读</label>
+
+    <label><input type="checkbox" name="hobbies" value="traveling"> 旅行</label>
+
+    <label><input type="checkbox" name="hobbies" value="sports"> 运动</label>
+
+  </fieldset>
+
+  <!-- 文本区域 -->
+
+  <label for="comments">您的评论：</label>
+
+  <textarea id="comments" name="comments" placeholder="请留下您的评论..."></textarea>
+
+  <!-- 提交按钮 -->
+
+  <button id="submit" type="submit">提交</button>
+
+</form>
+————————————————
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+                        
+原文链接：https://blog.csdn.net/2401_85947595/article/details/144247263
